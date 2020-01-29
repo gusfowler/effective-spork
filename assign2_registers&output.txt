@@ -1,0 +1,23 @@
+## Test Case 1 ##
+Assume when take input for $s2 that 5 is entered
+
+#1  $s0 = 15    |   0x0000000F
+#2  $s1 = -4    |   0xFFFFFFFC
+#3  $v0 = 5     |   0x00000005
+    $s2 = 5     |   0x00000005
+#4  $t0 = -19   |   0xFFFFFFED
+    $s3 = -14   |   0xFFFFFFF2
+#5  $t1 = -2    |   0xFFFFFFFE
+    $s4 = -16   |   0xFFFFFFF0
+#6  
+#7  $t3 = 15    |   0x0000000F
+    $s0 = -4    |   0xFFFFFFFC
+    $s1 = 15    |   0x0000000F
+#8  $s2 = -5    |   0xFFFFFFFB
+#9  $v0 = 1     |   0x00000001
+    $a0 = -4    |   0xFFFFFFFC
+    $a0 = 15    |   0x0000000F
+    $a0 = -5    |   0xFFFFFFFB
+    $a0 = -14   |   0xFFFFFFF2
+    $a0 = -16   |   0xFFFFFFF0
+    $a0 = 

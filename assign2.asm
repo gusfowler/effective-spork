@@ -8,7 +8,7 @@
 main:
     addi $s0, $0, 15        # use add immediate to set $s0 to 15 by adding $0 (zero) to 15
     
-    addi $s0, $0, -4        # did the same thing as one above, just added $0 and -4 to set $s1
+    addi $s1, $0, -4        # did the same thing as one above, just added $0 and -4 to set $s1
     
     addi $v0, $0, 5         # set command to take integer input
     syscall                 # actually take the input
