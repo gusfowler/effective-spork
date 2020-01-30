@@ -21,7 +21,7 @@ main:
     add $s4, $s3, $t1       # adding $t1 and $s3 and storing in $s4 to complete $s4 = $s3 + $s2 - 7
 
     sub $t2, $s1, $s2       # subtracting $s2 from $s1 and storing in $t2
-    add $s5, $t2, 20        # adding $t2 and 20 and storing in $s5 to complete $s5 = 20 + $s1 - $s2
+    addi $s5, $t2, 20       # adding $t2 and 20 and storing in $s5 to complete $s5 = 20 + $s1 - $s2
 
     add $t3, $0, $s0        # hold $s0
     add $s0, $0, $s1        # move $s1 to $s0
