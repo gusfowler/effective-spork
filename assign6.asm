@@ -18,56 +18,60 @@ main:
     la $s1, newLine         # load address to newLine in $s1
     ori $v0, $0, 4          # give command to print string
     syscall
-    jal prompt              # take in nums
-    jal prompt              # loop thru again
-    jal prompt              # loop thru for the last time
+    jal printPrompt         # take in nums
+    jal printPrompt         # loop thru again
+    jal printPrompt         # loop thru for the last time
     ori $v0, $0, 10         # give command to end prog
     syscall
 
-prompt:
+printPrompt:
     or $a0, $0, $s0         # load in prompt to $a0
     syscall                 # print prompt
     ori $v0, $0, 5          # give command to read int
-    syscall
-    ori $a0 ,$0, $s1        # load newLine and print
     syscall
     or $t0, $0, $v0         # store first num in $t0
+    syscall
+    or $a0 ,$0, $s1        	# load newLine into $a0
+    ori $v0, $0, 4          # give command to print string
+    syscall
 
     ori $v0, $0, 4          # give command to print str
     or $a0, $0, $s0         # load in prompt to $a0
     syscall                 # print prompt
     ori $v0, $0, 5          # give command to read int
-    syscall
-    ori $a0 ,$0, $s1        # load newLine and print
     syscall
     or $t1, $0, $v0         # store second num in $t1
-
+    or $a0 ,$0, $s1        	# load newLine into $a0
     ori $v0, $0, 4          # give command to print str
+    syscall
+
     or $a0, $0, $s0         # load in prompt to $a0
     syscall                 # print prompt
     ori $v0, $0, 5          # give command to read int
-    syscall
-    ori $a0 ,$0, $s1        # load newLine and print
     syscall
     or $t2, $0, $v0         # store third num in $t2
-
+    or $a0 ,$0, $s1        	# load newLine
     ori $v0, $0, 4          # give command to print str
+    syscall
+    
     or $a0, $0, $s0         # load in prompt to $a0
     syscall                 # print prompt
     ori $v0, $0, 5          # give command to read int
-    syscall
-    ori $a0 ,$0, $s1        # load newLine and print
     syscall
     or $t3, $0, $v0         # store fourth num in $t3
-
+    or $a0 ,$0, $s1        	# load newLine and print
     ori $v0, $0, 4          # give command to print str
+    syscall
+    
     or $a0, $0, $s0         # load in prompt to $a0
     syscall                 # print prompt
     ori $v0, $0, 5          # give command to read int
     syscall
-    ori $a0 ,$0, $s1        # load newLine and print
-    syscall
     or $t4, $0, $v0         # store fifth num in $t4
+    or $a0 ,$0, $s1         # load newLine and print
+    ori $v0, $0, 4          # give command to print str
+    syscall
+    
 
     or $s2, $0, $ra         # store return addr to $s2
     jal sumOfNums           # jump and link to sumOfNums
