@@ -1,0 +1,225 @@
+Gus Fowler
+Enter a number 
+Enter a number 
+**** user input : 5
+**** user input : 5
+
+Enter a number 
+**** user input : 5
+
+Enter a number 
+**** user input : 5
+
+Enter a number 
+**** user input : 5
+
+Enter a number 
+**** user input : 5
+
+25
+5
+5.0
+Enter a number 
+**** user input : 5
+**** user input : 5
+
+Enter a number 
+**** user input : 5
+
+Enter a number 
+**** user input : 5
+
+Enter a number 
+**** user input : 5
+
+Enter a number 
+**** user input : 5
+
+25
+5
+5.0
+Enter a number 
+**** user input : 5
+**** user input : 5
+
+Enter a number 
+**** user input : 5
+
+Enter a number 
+**** user input : 5
+
+Enter a number 
+**** user input : 5
+
+Enter a number 
+**** user input : 5
+
+25
+5
+5.0
+
+-- program is finished running --
+
+Gus Fowler
+Enter a number 
+Enter a number 
+**** user input : 5
+
+Enter a number 
+**** user input : 5
+
+Enter a number 
+**** user input : 5
+
+Enter a number 
+**** user input : 5
+
+Enter a number 
+**** user input : 5
+
+25
+5
+5.0
+Enter a number 
+**** user input : 5
+
+Enter a number 
+**** user input : 5
+
+Enter a number 
+**** user input : 5
+
+Enter a number 
+**** user input : 5
+
+Enter a number 
+**** user input : 5
+
+25
+5
+5.0
+Enter a number 
+**** user input : 5
+
+Enter a number 
+**** user input : 5
+
+Enter a number 
+**** user input : 5
+
+Enter a number 
+**** user input : 5
+
+Enter a number 
+**** user input : 5
+
+25
+5
+5.0
+
+-- program is finished running --
+
+Gus Fowler
+Enter a number **** user input : 5
+
+Enter a number **** user input : 5
+
+Enter a number **** user input : 5
+
+Enter a number **** user input : 5
+
+Enter a number **** user input : 5
+
+25
+5
+5.0
+Enter a number **** user input : 5
+
+Enter a number **** user input : 5
+
+Enter a number **** user input : 5
+
+Enter a number **** user input : 5
+
+Enter a number **** user input : 5
+
+25
+5
+5.0
+Enter a number **** user input : 5
+
+Enter a number **** user input : 5
+
+Enter a number **** user input : 5
+
+Enter a number **** user input : 5
+
+Enter a number **** user input : 5
+
+25
+5
+5.0
+
+-- program is finished running --
+
+Gus Fowler
+Enter a number **** user input : 5
+Enter a number **** user input : 5
+Enter a number **** user input : 5
+Enter a number **** user input : 5
+Enter a number **** user input : 5
+25
+5
+5.0
+Enter a number **** user input : 5
+Enter a number **** user input : 5
+Enter a number **** user input : 5
+Enter a number **** user input : 5
+Enter a number **** user input : 5
+25
+5
+5.0
+Enter a number **** user input : 5
+Enter a number **** user input : 5
+Enter a number **** user input : 5
+Enter a number **** user input : 5
+Enter a number **** user input : 5
+25
+5
+5.0
+
+-- program is finished running --
+
+/*  picked nums and expected results for each portion
+    first round:    1,2,3,4,5       expected:   15,3,3.0
+    second round:   7,10,8,9,1      expected:   35,7,7.0
+    third round:    11,15,91,7,27   expected:   151,30,30.2 */
+
+Gus Fowler
+Enter a number **** user input : 1
+Enter a number **** user input : 2
+Enter a number **** user input : 3
+Enter a number **** user input : 4
+Enter a number **** user input : 5
+15
+3
+3.0
+Enter a number **** user input : 7
+Enter a number **** user input : 10
+Enter a number **** user input : 8
+Enter a number **** user input : 9
+Enter a number **** user input : 1
+35
+7
+7.0
+Enter a number **** user input : 11
+Enter a number **** user input : 15
+Enter a number **** user input : 91
+Enter a number **** user input : 7
+Enter a number **** user input : 27
+151
+30
+30.2
+
+-- program is finished running --
+
